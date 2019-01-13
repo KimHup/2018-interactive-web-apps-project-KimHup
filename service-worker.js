@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/it-teaching-abo-akademi/2018-interactive-web-apps-project-KimHup/precache-manifest.0de2c9ea22840fe3c71347336ae43abe.js"
+  "/2018-interactive-web-apps-project-KimHup/precache-manifest.613576fddd11e8eb200800182faaaef2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/it-teaching-abo-akademi/2018-interactive-web-apps-project-KimHup/index.html", {
+workbox.routing.registerNavigationRoute("/2018-interactive-web-apps-project-KimHup/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
