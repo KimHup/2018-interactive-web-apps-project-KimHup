@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2018-interactive-web-apps-project-KimHup/precache-manifest.d37c9f844eff4a4aa95418743126cf7c.js"
+  "/2018-interactive-web-apps-project-KimHup/precache-manifest.3474834bc05975a7cef0eff4c69a69ae.js"
 );
 
 workbox.clientsClaim();
