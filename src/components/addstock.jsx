@@ -20,7 +20,7 @@ class AddStock extends Component {
         let typing= [this.refs.stockCode.value];
         if (typing !== ""){
             let Httpreq = new XMLHttpRequest();
-            Httpreq.open("GET","http://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+typing+"&apikey=HLLSC0ZZV82CRHHB",false);
+            Httpreq.open("GET","https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+typing+"&apikey=HLLSC0ZZV82CRHHB",false);
             Httpreq.send(null);
             let json_obj = JSON.parse(Httpreq.responseText);
             if (json_obj['Time Series (Daily)']!== undefined){

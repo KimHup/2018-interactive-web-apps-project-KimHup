@@ -24,7 +24,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://github.com/it-teaching-abo-akademi/2018-interactive-web-apps-project-KimHup",
+  "homepage": "https://it-teaching-abo-akademi.github.io/2018-interactive-web-apps-project-KimHup/",
   "browserslist": [
     ">0.2%",
     "not dead",
